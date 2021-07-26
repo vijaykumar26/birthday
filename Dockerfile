@@ -8,9 +8,9 @@ WORKDIR /app/workspace/Amruta_js
 #ENV PATH /app/node_modules/.bin:$PATH
 #
 # # install app dependencies
-COPY package.json ./
+#COPY package.json ./
 #
-COPY package-lock.json ./
+#COPY package-lock.json ./
 #
 RUN npm install
 #
