@@ -18,4 +18,5 @@ RUN npm install
 COPY . ./
 #
 # # start app
+CMD ["npm", "install"]
 CMD ["npm", "start"]
